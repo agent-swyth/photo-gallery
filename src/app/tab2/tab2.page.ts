@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { PhotoService } from '../../app/photo.service';
 
+
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
@@ -17,6 +18,7 @@ export class Tab2Page {
   async ngOnInit() {
     await this.photoService.loadSaved();
   }
+
 
 
 }
