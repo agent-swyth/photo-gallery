@@ -1,2 +1,2 @@
 # photo-gallery
-First Web App with Ionic &amp; Angular
+First Web App with Ionic Cordova &amp; Angular
